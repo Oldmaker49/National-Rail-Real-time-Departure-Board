@@ -28,12 +28,18 @@ Push-button (n.o. spst) for scrolling and selecting the Station from the Station
 ![Fig 3 Button wiring](https://github.com/user-attachments/assets/e94acb21-60b9-4bef-a041-824eb4372410)
 
 
-Fig 3 Push-burron Wiring
+Fig 3 Push-button Wiring
 
 ## Obtaining access to UK National Rail data feed
 A user token is required to access the National Rail data feed.
 To get the token: Visit: https://www.nationalrail.co.uk/100296.aspx
 Scroll down to the Darwin Data Feeds table. Find the row labelled "LDB Webservice (PV)" and click register here. Follow the registration steps. Wait for a bit and you should get an email confirming your account is activated. The email also contains your token.
+
+## Downloading and installing the Code
+Download and unzip the files. The code can be found in the National-Rail-Real-time-Departure-Board-main folder. 
+The code is in the DepartureBoard_PICO_V1.0 folder and consists of the main code file: DepartureBoard_PICO_V1.0.ino
+and associated code files: api.ino, stationSelect.ino.
+The TFT_eSPI.h graphics library requires the Free_Fonts.h file.
 
 ## Code Setup
 Compiled with Arduino IDE 2.3.6 and Raspberry Pi Pico https://github.com/earlephilhower/arduino-pico v4.5.1
