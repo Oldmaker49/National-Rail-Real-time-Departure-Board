@@ -1,10 +1,10 @@
 ## National Rail Departure Board showing real-time departure information from any rail station within Great Britain on a 3.5 inch 320 x 480 pixel LCD display. Uses Raspberry Pi PICO 2W microprocessor.
 
 ## Overview
-Designed to emulate the look of a typical station departure board (Figure 1).
+Designed to emulate the look of a typical station departure board (Figure 2).
 Pulls data from National Rail's Darwin LDB Webservice data feed.
 Departures for up to 15 services can be displayed.
-The station can be selected from a user defined list (in the code) of up to 24 stations (Figure 2).
+The station can be selected from a user defined list(in the code) of up to 24 stations (Figure 1).
 The display also shows the current time derived from NTP server.
 
 
